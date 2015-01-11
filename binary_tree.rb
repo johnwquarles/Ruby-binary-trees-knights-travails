@@ -1,7 +1,8 @@
 # Thanks to Michael Alexander (BetweenParentheses) -- I had several moments of epiphony about how these work while reading your code.
 
 class Node
-  attr_accessor :value, :left, :right
+  attr_reader :value
+  attr_accessor :left, :right
   
   def initialize(value)
     @value = value
