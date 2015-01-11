@@ -1,5 +1,5 @@
 class Square
-  attr_accessor :x, :y, :parent_obj, :children
+  attr_reader :x, :y, :parent_obj, :children
   
   def initialize(x, y, parent_obj = nil)
     @x = x
