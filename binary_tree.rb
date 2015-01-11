@@ -17,7 +17,7 @@ class Node
     end
   end
 end
-    
+
 # this requires a sorted array as its input. The binary tree generated will be balanced (height minimized).
 def make_tree_sorted(arr)
   # deal with (base) cases where we've put in an empty list (the children created from such lists will be nil, ie, there won't be any children.)
