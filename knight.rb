@@ -40,7 +40,7 @@ def get_route(root_arr, search_arr)
   result = get_search_obj(search_obj, root_obj)
   
   route = []
-  route << [search_obj.x, search_obj.y]
+  route.unshift([search_obj.x, search_obj.y])
   current = result.parent_obj
   until current == nil
     route.unshift [current.x, current.y]
